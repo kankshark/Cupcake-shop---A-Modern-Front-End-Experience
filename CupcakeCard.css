@@ -1,0 +1,62 @@
+.cupcake-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  width: 250px;
+  text-align: center;
+}
+
+.cupcake-card:hover {
+  transform: translateY(-5px);
+}
+
+.cupcake-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h4 {
+  margin-top: 0;
+  color: #e57373;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #666;
+}
+
+.price {
+  font-weight: bold;
+  color: #e57373;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.cupcake-card button {
+  background-color: #66bb6a;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cupcake-image {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cupcake-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
